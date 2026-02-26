@@ -7,10 +7,35 @@ import type { Article } from '@/lib/articles'
 
 function getArticleImage(slug: string): string {
   const images: Record<string, string> = {
+    // Getting Started
     'first-week-ozempic': '/images/ozempic.jpg',
-    'high-protein-recipes': '/images/protein.jpg',
+    'weeks-2-4-progression': '/images/ozempic.jpg',
+    'tirzepatide-mounjaro-guide': '/images/ozempic.jpg',
+    // Health Tips
     'hydration-habit': '/images/hydration.jpg',
+    'fatigue-energy-glp1': '/images/hydration.jpg',
+    'nausea-triggers-management': '/images/hydration.jpg',
+    'constipation-solutions-glp1': '/images/hydration.jpg',
+    'vitamins-supplements-glp1': '/images/hydration.jpg',
+    'protein-deficit-muscle-loss': '/images/protein.jpg',
+    // Practical Tips
     'grocery-shopping-101': '/images/grocery.jpg',
+    'high-protein-recipes': '/images/protein.jpg',
+    'meal-prep-smaller-appetites': '/images/grocery.jpg',
+    'navigating-weight-loss-plateaus': '/images/protein.jpg',
+    'social-situations-glp1': '/images/grocery.jpg',
+    'dining-out-glp1-restaurants': '/images/grocery.jpg',
+    'protein-snacks-low-appetite': '/images/protein.jpg',
+    'protein-supplements-guide': '/images/protein.jpg',
+    // Recipes
+    'greek-yogurt-protein-bowl': '/images/protein.jpg',
+    'turkey-cheese-rollups': '/images/protein.jpg',
+    'electrolyte-lemonade': '/images/hydration.jpg',
+    'protein-smoothie': '/images/protein.jpg',
+    'protein-oatmeal': '/images/protein.jpg',
+    'egg-muffins': '/images/protein.jpg',
+    'tuna-salad': '/images/protein.jpg',
+    'cottage-cheese-bowl': '/images/protein.jpg',
   }
   return images[slug] || '/images/hero.jpg'
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Script from 'next/script'
 import { ArrowLeft, Clock, Calendar } from 'lucide-react'
 import { notFound } from 'next/navigation'
 import ArticleEnhancements from '@/components/ArticleEnhancements'
@@ -50,10 +51,35 @@ export async function generateStaticParams() {
 // Get hero image based on article slug
 function getHeroImage(slug: string): string {
   const images: Record<string, string> = {
+    // Getting Started
     'first-week-ozempic': '/images/ozempic.jpg',
-    'high-protein-recipes': '/images/protein.jpg',
+    'weeks-2-4-progression': '/images/ozempic.jpg',
+    'tirzepatide-mounjaro-guide': '/images/ozempic.jpg',
+    // Health Tips
     'hydration-habit': '/images/hydration.jpg',
+    'fatigue-energy-glp1': '/images/hydration.jpg',
+    'nausea-triggers-management': '/images/hydration.jpg',
+    'constipation-solutions-glp1': '/images/hydration.jpg',
+    'vitamins-supplements-glp1': '/images/hydration.jpg',
+    'protein-deficit-muscle-loss': '/images/protein.jpg',
+    // Practical Tips  
     'grocery-shopping-101': '/images/grocery.jpg',
+    'high-protein-recipes': '/images/protein.jpg',
+    'meal-prep-smaller-appetites': '/images/grocery.jpg',
+    'navigating-weight-loss-plateaus': '/images/protein.jpg',
+    'social-situations-glp1': '/images/grocery.jpg',
+    'dining-out-glp1-restaurants': '/images/grocery.jpg',
+    'protein-snacks-low-appetite': '/images/protein.jpg',
+    'protein-supplements-guide': '/images/protein.jpg',
+    // Recipes
+    'greek-yogurt-protein-bowl': '/images/protein.jpg',
+    'turkey-cheese-rollups': '/images/protein.jpg',
+    'electrolyte-lemonade': '/images/hydration.jpg',
+    'protein-smoothie': '/images/protein.jpg',
+    'protein-oatmeal': '/images/protein.jpg',
+    'egg-muffins': '/images/protein.jpg',
+    'tuna-salad': '/images/protein.jpg',
+    'cottage-cheese-bowl': '/images/protein.jpg',
   }
   return images[slug] || '/images/hero.jpg'
 }
@@ -78,8 +104,44 @@ export default async function ArticlePage({ params }: PageProps) {
     .filter((a) => (article.category ? a.category === article.category : true))
     .slice(0, 3)
 
+  // JSON-LD structured data for SEO
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.excerpt,
+    image: `https://glpgrub.com${heroImage}`,
+    datePublished: article.date,
+    dateModified: article.date,
+    author: {
+      '@type': 'Organization',
+      name: 'GLPGrub',
+      url: 'https://glpgrub.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'GLPGrub',
+      url: 'https://glpgrub.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://glpgrub.com/images/hero.jpg',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://glpgrub.com/articles/${slug}`,
+    },
+  }
+
   return (
     <main className="min-h-screen bg-slate-50">
+      {/* JSON-LD Structured Data */}
+      <Script
+        id="article-json-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Article Header with Hero Image */}
       <div className="relative text-white overflow-hidden">
         <div className="absolute inset-0">

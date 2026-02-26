@@ -1,4 +1,6 @@
-@import './tailwind.generated.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   color-scheme: light;
@@ -9,8 +11,7 @@ html, body {
 }
 
 body {
-  background: rgb(248 250 252);
-  color: rgb(15 23 42);
+  @apply bg-slate-50 text-slate-900 antialiased;
 }
 
 /* Nicer text rendering */

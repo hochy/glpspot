@@ -3,8 +3,11 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import Analytics from '@/components/Analytics'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA measurement_ID || ''
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://glpgrub.com'),
@@ -37,6 +40,7 @@ export default function RootLayout({
           <div className="flex-1">{children}</div>
           <Footer />
         </div>
+        {GA_MEASUREMENT_ID && <Analytics measurementId={GA_MEASUREMENT_ID} />}
       </body>
     </html>
   )

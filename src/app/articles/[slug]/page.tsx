@@ -3,6 +3,7 @@ import Script from 'next/script'
 import { ArrowLeft, Clock, Calendar } from 'lucide-react'
 import { notFound } from 'next/navigation'
 import ArticleEnhancements from '@/components/ArticleEnhancements'
+import NewsletterForm from '@/components/NewsletterForm'
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -235,29 +236,9 @@ export default async function ArticlePage({ params }: PageProps) {
         </div>
       )}
 
-      {/* Related/CTA */}
+      {/* Newsletter CTA */}
       <div className="max-w-4xl mx-auto px-4 pb-16">
-        <div className="bg-glp-cream rounded-2xl p-8 text-center">
-          <h3 className="text-2xl font-bold text-glp-dark mb-4">
-            Want More GLP-1 Nutrition Tips?
-          </h3>
-          <p className="text-gray-600 mb-6 max-w-xl mx-auto">
-            Get weekly recipes and nutrition advice delivered straight to your inbox.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-6 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-glp-teal"
-            />
-            <button
-              type="submit"
-              className="px-8 py-3 bg-glp-coral text-white font-semibold rounded-full hover:bg-orange-600 transition-colors"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
+        <NewsletterForm />
       </div>
     </main>
   )

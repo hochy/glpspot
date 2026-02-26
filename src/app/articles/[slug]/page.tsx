@@ -80,6 +80,13 @@ function getHeroImage(slug: string): string {
     'egg-muffins': '/images/protein.jpg',
     'tuna-salad': '/images/protein.jpg',
     'cottage-cheese-bowl': '/images/protein.jpg',
+    'protein-pancakes': '/images/protein.jpg',
+    'bone-broth': '/images/hydration.jpg',
+    'protein-pudding': '/images/protein.jpg',
+    'chicken-salad': '/images/protein.jpg',
+    'turkey-burger': '/images/protein.jpg',
+    'protein-energy-bites': '/images/protein.jpg',
+    'baked-salmon': '/images/protein.jpg',
   }
   return images[slug] || '/images/hero.jpg'
 }

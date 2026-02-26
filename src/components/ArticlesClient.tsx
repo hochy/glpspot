@@ -50,6 +50,13 @@ function getArticleImage(slug: string): string {
     'turkey-burger': '/images/protein.jpg',
     'protein-energy-bites': '/images/protein.jpg',
     'baked-salmon': '/images/protein.jpg',
+    'shrimp-skewers': '/images/protein.jpg',
+    'lentil-soup': '/images/hydration.jpg',
+    'protein-waffles': '/images/protein.jpg',
+    'chicken-parmesan': '/images/protein.jpg',
+    'protein-oatmeal-cookies': '/images/protein.jpg',
+    'fish-tacos': '/images/protein.jpg',
+    'edamame': '/images/protein.jpg',
   }
   return images[slug] || '/images/hero.jpg'
 }

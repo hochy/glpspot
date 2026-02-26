@@ -62,6 +62,13 @@ function getHeroImage(slug: string): string {
     'constipation-solutions-glp1': '/images/hydration.jpg',
     'vitamins-supplements-glp1': '/images/hydration.jpg',
     'protein-deficit-muscle-loss': '/images/protein.jpg',
+    'hair-loss-glp1': '/images/hydration.jpg',
+    'exercise-glp1': '/images/protein.jpg',
+    'sleep-issues-glp1': '/images/hydration.jpg',
+    'gallbladder-glp1': '/images/hydration.jpg',
+    'alcohol-glp1': '/images/hydration.jpg',
+    'mental-health-body-image': '/images/hydration.jpg',
+    'transitioning-off-glp1': '/images/protein.jpg',
     // Practical Tips  
     'grocery-shopping-101': '/images/grocery.jpg',
     'high-protein-recipes': '/images/protein.jpg',

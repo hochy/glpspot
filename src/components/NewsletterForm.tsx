@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import ArrowRight from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 
 type NewsletterStatus = 'idle' | 'loading' | 'success' | 'error'
 

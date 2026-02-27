@@ -7,7 +7,7 @@ import Analytics from '@/components/Analytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA measurement_ID || ''
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://theglpspot.com'),

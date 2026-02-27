@@ -15,7 +15,7 @@ export async function GET() {
   const { getAllArticles } = await import('@/lib/articles')
   const articles = await getAllArticles()
 
-  const siteUrl = 'https://glpgrub.com'
+  const siteUrl = 'https://theglpspot.com'
   const now = new Date().toUTCString()
 
   const items = articles
@@ -28,7 +28,7 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title>GLPGrub</title>
+<title>The GLPSpot</title>
 <link>${siteUrl}</link>
 <description>GLP-1 nutrition guidance, protein-forward recipes, and practical tips.</description>
 <language>en-us</language>

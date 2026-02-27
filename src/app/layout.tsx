@@ -10,14 +10,14 @@ const inter = Inter({ subsets: ['latin'] })
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA measurement_ID || ''
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://glpgrub.com'),
-  title: 'GLPGrub - Your GLP-1 Journey Companion',
+  metadataBase: new URL('https://theglpspot.com'),
+  title: 'The GLPSpot - Your GLP-1 Journey Companion',
   description: 'Nutrition advice, meal plans, and resources for people taking GLP-1 medications',
   openGraph: {
-    title: 'GLPGrub - Your GLP-1 Journey Companion',
+    title: 'The GLPSpot - Your GLP-1 Journey Companion',
     description: 'Protein-forward recipes and practical nutrition guidance for your GLP-1 journey.',
-    url: 'https://glpgrub.com',
-    siteName: 'GLPGrub',
+    url: 'https://theglpspot.com',
+    siteName: 'The GLPSpot',
     images: ['/images/hero.jpg'],
     type: 'website',
   },

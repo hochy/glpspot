@@ -22,7 +22,7 @@ export default function AboutPage() {
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Link>
-          <h1 className="text-4xl font-bold">About GLPGrub</h1>
+          <h1 className="text-4xl font-bold">About The GLPSpot</h1>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-glp-dark">Our Mission</h2>
             </div>
             <p className="text-gray-600 leading-relaxed mb-4">
-              GLPGrub was created for one simple reason: people taking GLP-1 medications like
+              The GLPSpot was created for one simple reason: people taking GLP-1 medications like
               Ozempic, Wegovy, Mounjaro, and Zepbound need practical nutrition advice that
               actually works with their new appetite reality.
             </p>
@@ -114,7 +114,7 @@ export default function AboutPage() {
           <section className="bg-glp-cream p-6 rounded-xl mb-8">
             <h2 className="text-lg font-bold text-glp-dark mb-3">Medical Disclaimer</h2>
             <p className="text-gray-600 text-sm leading-relaxed">
-              GLPGrub provides general nutrition information and recipes. We are not medical
+              The GLPSpot provides general nutrition information and recipes. We are not medical
               professionals. Always consult your doctor before making dietary changes,
               especially when taking prescription medications. This site is not affiliated
               with or endorsed by any pharmaceutical company.
@@ -128,10 +128,10 @@ export default function AboutPage() {
               Have questions or suggestions? We'd love to hear from you.
             </p>
             <a
-              href="mailto:hello@glpgrub.com"
+              href="mailto:hello@theglpspot.com"
               className="inline-block bg-glp-teal text-white px-6 py-3 rounded-full font-medium hover:bg-glp-teal-dark transition-colors"
             >
-              hello@glpgrub.com
+              hello@theglpspot.com
             </a>
           </section>
         </div>

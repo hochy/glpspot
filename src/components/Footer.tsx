@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 font-bold text-xl text-glp-dark">
               <Beaker className="w-6 h-6 text-glp-teal" />
-              <span>GLPGrub</span>
+              <span>The GLPSpot</span>
             </div>
             <p className="mt-3 text-slate-600 max-w-md">
               Practical GLP-1 nutrition guidance: protein-forward recipes, portion tips, and
@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-slate-500">
-          <span>© {new Date().getFullYear()} GLPGrub</span>
+          <span>© {new Date().getFullYear()} The GLPSpot</span>
           <span>Built with Next.js + Tailwind</span>
         </div>
       </div>

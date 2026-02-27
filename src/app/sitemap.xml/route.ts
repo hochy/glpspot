@@ -2,7 +2,7 @@ import { getAllArticles } from '@/lib/articles'
 
 export async function GET() {
   const articles = await getAllArticles()
-  const baseUrl = 'https://glpgrub.com'
+  const baseUrl = 'https://theglpspot.com'
 
   // Static pages
   const staticPages = [

@@ -1,7 +1,7 @@
 import { getAllArticles } from '@/lib/articles'
 
 export async function GET() {
-  const baseUrl = 'https://glpgrub.com'
+  const baseUrl = 'https://theglpspot.com'
 
   const robotsTxt = `# Allow all crawlers to access the site
 User-agent: *

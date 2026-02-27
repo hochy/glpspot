@@ -300,4 +300,4 @@ Protein malnutrition isn't worth rapid weight loss. Use the tools available—pr
 
 ---
 
-*Questions about protein supplements? Check our recipes section for powder-based recipes or email us at hello@glpgrub.com.*
+*Questions about protein supplements? Check our recipes section for powder-based recipes or email us at hello@theglpspot.com.*

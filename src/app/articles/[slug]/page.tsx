@@ -20,15 +20,15 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!article) {
     return {
-      title: 'Article - GLPGrub',
+      title: 'Article - The GLPSpot',
     }
   }
 
   return {
-    title: `${article.title} - GLPGrub`,
+    title: `${article.title} - The GLPSpot`,
     description: article.excerpt,
     openGraph: {
-      title: `${article.title} - GLPGrub`,
+      title: `${article.title} - The GLPSpot`,
       description: article.excerpt,
       images: [getHeroImage(slug)],
       type: 'article',
@@ -132,26 +132,26 @@ export default async function ArticlePage({ params }: PageProps) {
     '@type': 'Article',
     headline: article.title,
     description: article.excerpt,
-    image: `https://glpgrub.com${heroImage}`,
+    image: `https://theglpspot.com${heroImage}`,
     datePublished: article.date,
     dateModified: article.date,
     author: {
       '@type': 'Organization',
-      name: 'GLPGrub',
-      url: 'https://glpgrub.com',
+      name: 'The GLPSpot',
+      url: 'https://theglpspot.com',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'GLPGrub',
-      url: 'https://glpgrub.com',
+      name: 'The GLPSpot',
+      url: 'https://theglpspot.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://glpgrub.com/images/hero.jpg',
+        url: 'https://theglpspot.com/images/hero.jpg',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://glpgrub.com/articles/${slug}`,
+      '@id': `https://theglpspot.com/articles/${slug}`,
     },
   }
 

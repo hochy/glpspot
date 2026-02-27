@@ -21,7 +21,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <Beaker className="w-6 h-6" />
-            <span>GLPGrub</span>
+            <span>The GLPSpot</span>
           </Link>
 
           {/* Desktop Navigation */}

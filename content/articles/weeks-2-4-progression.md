@@ -244,4 +244,4 @@ You made it through week 1. You can do weeks 2-4. And by week 4, you'll have sys
 
 ---
 
-*Have questions about week 2-4 progression? Share your experience in our community forum or email us at hello@glpgrub.com.*
+*Have questions about week 2-4 progression? Share your experience in our community forum or email us at hello@theglpspot.com.*

@@ -296,4 +296,4 @@ Your nutrition strategy should match your medication. For tirzepatide, that mean
 
 ---
 
-*Navigating tirzepatide? Join our Mounjaro-specific forum or email us at hello@glpgrub.com with questions.*
+*Navigating tirzepatide? Join our Mounjaro-specific forum or email us at hello@theglpspot.com with questions.*

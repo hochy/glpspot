@@ -63,7 +63,7 @@ export default async function Home() {
         <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-glp-coral/10 blur-3xl" />
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-glp-dark mb-12">
-            Why GLPGrub?
+            Why The GLPSpot?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <FeatureCard

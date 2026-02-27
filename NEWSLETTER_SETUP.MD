@@ -2,14 +2,42 @@
 
 ## Quick Start
 
-1. Choose your newsletter service (ConvertKit recommended)
+1. Choose your newsletter service (Beehiiv, ConvertKit, or Mailchimp)
 2. Copy `.env.example` to `.env.local`
 3. Fill in your API credentials
 4. Deploy!
 
 ---
 
-## ConvertKit Setup (Recommended)
+## Beehiiv Setup (Recommended for Newsletters)
+
+### Why Beehiiv?
+- Newsletter-first platform (built exactly for this use case)
+- Free tier: Unlimited subscribers, 0% fees
+- Clean, creator-friendly interface
+- Modern features (recommendations, analytics)
+
+### Get API Key
+1. Go to [Beehiiv](https://www.beehiiv.com/) and sign in
+2. Navigate to Settings → Integrations → API
+3. Generate a new API key (it will be a long alphanumeric string)
+4. Copy your API key
+5. Paste in `.env.local`: `BEEHIIV_API_KEY=your_api_key_here`
+
+### Get Publication ID
+1. On the Beehiiv dashboard, go to Settings → Publication
+2. Find your Publication ID (usually: `pub_xxxxxxxx`)
+3. Paste in `.env.local`: `BEEHIIV_PUBLICATION_ID=pub_xxxxxxxx`
+
+### Set Service
+In `.env.local`:
+```
+NEWSLETTER_SERVICE=beehiiv
+```
+
+---
+
+## ConvertKit Setup
 
 ### Get API Key
 1. Go to [ConvertKit Settings](https://app.convertkit.com/account_settings/advanced_settings)
@@ -120,15 +148,17 @@ Before deploying:
 
 ---
 
-## ConvertKit vs Mailchimp
+## ConvertKit vs Mailchimp vs Beehiiv
 
-| Feature | ConvertKit | Mailchimp |
-|---------|------------|----------|
-| Free Tier | 1,000 subscribers | 500 subscribers |
-| Email Automation | Powerful | Basic |
-| Paid Plans | \$29/mo+ | \$13/mo+ |
-| Landing Pages | Yes | Limited |
-| Ease of Use | Simple | More complex |
-| Tag/Course Segments | Excellent | Good |
+| Feature | Beehiiv | ConvertKit | Mailchimp |
+|---------|---------|------------|----------|
+| Free Tier | Unlimited subs (0% fees) | 1,000 subscribers | 500 subscribers |
+| Focus | Newsletter-centric | Email marketing | Email marketing |
+| Email Automation | Good | Powerful | Basic |
+| Paid Plans | \$49/mo+ | \$29/mo+ | \$13/mo+ |
+| Landing Pages | Yes | Yes | Limited |
+| Ease of Use | Simple | Simple | More complex |
+| Best For | Newsletters | Creators | Businesses |
+| Recommendation | ⭐ For The GLPSpot | Good alternative | More complex |
 
-**Recommendation:** Start with ConvertKit for GLPGrub (better creator tools, simpler interface).
+**Recommendation:** Start with **Beehiiv** for The GLPSpot - it's newsletter-first, free, and creator-friendly.

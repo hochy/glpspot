@@ -6,8 +6,10 @@ const CONVERTKIT_API_KEY = process.env.CONVERTKIT_API_KEY || ''
 const CONVERTKIT_FORM_ID = process.env.CONVERTKIT_FORM_ID || ''
 const MAILCHIMP_API_KEY = process.env.MAILCHIMP_API_KEY || ''
 const MAILCHIMP_LIST_ID = process.env.MAILCHIMP_LIST_ID || ''
+const BEEHIIV_API_KEY = process.env.BEEHIIV_API_KEY || ''
+const BEEHIIV_PUBLICATION_ID = process.env.BEEHIIV_PUBLICATION_ID || ''
 
-// Configuration: which service to use (convertkit, mailchimp, or log)
+// Configuration: which service to use (beehiiv, convertkit, mailchimp, or log)
 const NEWSLETTER_SERVICE = process.env.NEWSLETTER_SERVICE || 'log'
 
 interface SubscribeRequest {
@@ -25,7 +27,7 @@ async function subscribeToConvertKit(email: string): Promise<{ success: boolean;
         api_secret: CONVERTKIT_API_KEY,
         email,
         fields: {
-          source: 'glpgrub',
+          source: 'theglpspot',
         },
       }),
     })
@@ -87,6 +89,43 @@ function logSubscribe(email: string): { success: boolean; error?: string } {
   return { success: true }
 }
 
+async function subscribeToBeehiiv(email: string): Promise<{ success: boolean; error?: string }> {
+  try {
+    const response = await fetch(
+      `https://api.beehiiv.com/v2/publications/${BEEHIIV_PUBLICATION_ID}/subscriptions`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${BEEHIIV_API_KEY}`,
+        },
+        body: JSON.stringify({
+          email,
+          reactivate_existing: true,
+          send_welcome_email: true,
+          custom_fields: {
+            source: 'theglpspot',
+          },
+          utm_source: 'theglpspot',
+          referring_site: 'theglpspot.com',
+        }),
+      }
+    )
+
+    if (!response.ok) {
+      const error = await response.json()
+      return {
+        success: false,
+        error: error.message || 'Failed to subscribe to Beehiiv',
+      }
+    }
+
+    return { success: true }
+  } catch (error) {
+    return { success: false, error: 'Failed to connect to Beehiiv' }
+  }
+}
+
 export async function POST(request: NextRequest) {
   try {
     const { email }: SubscribeRequest = await request.json()
@@ -100,6 +139,13 @@ export async function POST(request: NextRequest) {
     let result
 
     switch (NEWSLETTER_SERVICE) {
+      case 'beehiiv':
+        if (!BEEHIIV_API_KEY || !BEEHIIV_PUBLICATION_ID) {
+          return NextResponse.json({ error: 'Beehiiv not configured' }, { status: 500 })
+        }
+        result = await subscribeToBeehiiv(email)
+        break
+
       case 'convertkit':
         if (!CONVERTKIT_API_KEY) {
           return NextResponse.json({ error: 'ConvertKit not configured' }, { status: 500 })

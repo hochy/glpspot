@@ -1,5 +1,19 @@
 import Link from 'next/link'
 import { Beaker, Heart, Users, ArrowLeft } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About The GLPSpot - GLP-1 Nutrition Guidance',
+  description: 'Learn about The GLPSpot and our mission to provide practical protein-forward nutrition advice for people taking GLP-1 medications like Ozempic, Wegovy, and Mounjaro.',
+  alternates: {
+    canonical: 'https://theglpspot.com/about',
+  },
+  openGraph: {
+    title: 'About The GLPSpot',
+    description: 'Practical GLP-1 nutrition guidance: protein-forward recipes, portion tips, and real-world habits.',
+    url: 'https://theglpspot.com/about',
+  },
+}
 
 export default function AboutPage() {
   return (

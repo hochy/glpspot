@@ -1,6 +1,20 @@
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import ArticlesClient from '@/components/ArticlesClient'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'All Articles - The GLPSpot',
+  description: 'Browse all GLP-1 nutrition articles, guides, and recipes. Protein-forward meals and practical tips for your GLP-1 journey on Ozempic, Wegovy, and Mounjaro.',
+  alternates: {
+    canonical: 'https://theglpspot.com/articles',
+  },
+  openGraph: {
+    title: 'All Articles - The GLPSpot',
+    description: 'Nutrition tips, recipes, and guides for your GLP-1 journey.',
+    url: 'https://theglpspot.com/articles',
+  },
+}
 
 async function getArticles() {
   const { getAllArticles } = await import('@/lib/articles')

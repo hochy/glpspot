@@ -1,5 +1,20 @@
 import Link from 'next/link'
 import { ArrowRight, ChefHat, Heart, Scale } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'The GLPSpot - Your GLP-1 Journey Companion',
+  description: 'Practical GLP-1 nutrition guidance, protein-forward recipes, and real-world tips for people taking Ozempic, Wegovy, and Mounjaro. Expert advice for smaller appetites.',
+  alternates: {
+    canonical: 'https://theglpspot.com',
+  },
+  openGraph: {
+    title: 'The GLPSpot - Your GLP-1 Journey Companion',
+    description: 'Expert nutrition guidance, protein-rich recipes, and practical tips for people taking GLP-1 medications like Ozempic, Wegovy, and Mounjaro.',
+    url: 'https://theglpspot.com',
+    siteName: 'The GLPSpot',
+  },
+}
 
 async function getArticles() {
   const { getAllArticles } = await import('@/lib/articles')

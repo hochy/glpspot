@@ -11,6 +11,9 @@ const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://theglpspot.com'),
+  alternates: {
+    canonical: 'https://theglpspot.com',
+  },
   title: 'The GLPSpot - Your GLP-1 Journey Companion',
   description: 'Nutrition advice, meal plans, and resources for people taking GLP-1 medications',
   openGraph: {

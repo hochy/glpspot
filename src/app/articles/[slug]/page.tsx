@@ -24,12 +24,18 @@ export async function generateMetadata({ params }: PageProps) {
     }
   }
 
+  const canonicalUrl = `https://theglpspot.com/articles/${slug}`
+
   return {
     title: `${article.title} - The GLPSpot`,
     description: article.excerpt,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `${article.title} - The GLPSpot`,
       description: article.excerpt,
+      url: canonicalUrl,
       images: [getHeroImage(slug)],
       type: 'article',
     },

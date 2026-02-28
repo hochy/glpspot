@@ -1,6 +1,20 @@
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import RecipeCard from '@/components/RecipeCard'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Recipes - The GLPSpot',
+  description: 'Protein-forward recipes designed for GLP-1 appetite reality. Small portions with 20-30g protein for Ozempic, Wegovy, and Mounjaro users.',
+  alternates: {
+    canonical: 'https://theglpspot.com/recipes',
+  },
+  openGraph: {
+    title: 'Recipes - The GLPSpot',
+    description: 'Protein-forward, small-portion meals designed for GLP-1 appetite reality.',
+    url: 'https://theglpspot.com/recipes',
+  },
+}
 
 async function getRecipes() {
   const { getAllArticles } = await import('@/lib/articles')

@@ -4,6 +4,8 @@ import { ArrowLeft, Clock, Calendar } from 'lucide-react'
 import { notFound } from 'next/navigation'
 import ArticleEnhancements from '@/components/ArticleEnhancements'
 import NewsletterForm from '@/components/NewsletterForm'
+import TableOfContents from '@/components/TableOfContents'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -166,6 +168,15 @@ export default async function ArticlePage({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-slate-50">
+      {/* Breadcrumbs */}
+      <Breadcrumbs
+        items={[
+          { label: 'Articles', href: '/articles' },
+          { label: article.category || 'Article' },
+          { label: article.title },
+        ]}
+      />
+
       {/* JSON-LD Structured Data */}
       <Script
         id="article-json-ld"
@@ -211,15 +222,28 @@ export default async function ArticlePage({ params }: PageProps) {
       </div>
 
       {/* Article Content */}
-      <article className="max-w-4xl mx-auto py-12 px-4">
-        <div className="bg-white rounded-2xl p-8 md:p-12 shadow-sm">
-          <ArticleEnhancements contentSelector="#article-content" />
+      <article className="max-w-5xl mx-auto py-12 px-4">
+        <div className="grid lg:grid-cols-[280px_1fr] gap-8">
+          {/* Sidebar: Table of Contents (desktop) */}
+          <aside className="hidden lg:block lg:sticky lg:top-20 lg:self-start">
+            <TableOfContents content={article.content} />
+          </aside>
 
-          <div
-            id="article-content"
-            className="prose prose-lg max-w-none"
-            dangerouslySetInnerHTML={{ __html: article.content }}
-          />
+          {/* Main Content */}
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-sm">
+            {/* Mobile TOC */}
+            <div className="mb-8 lg:hidden">
+              <TableOfContents content={article.content} />
+            </div>
+
+            <ArticleEnhancements contentSelector="#article-content" />
+
+            <div
+              id="article-content"
+              className="prose prose-lg max-w-none"
+              dangerouslySetInnerHTML={{ __html: article.content }}
+            />
+          </div>
         </div>
       </article>
 

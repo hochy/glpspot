@@ -1,177 +1,193 @@
 ---
-title: "Lentil Soup (Plant-Based Protein, 18g Protein)"
-excerpt: "Plant protein doesn't have to be complicated. One bowl = 18g protein, fiber-rich, comfort food without animal products."
-date: "2026-02-26"
+title: "Lentil Soup: 20g Protein in 1 Bowl Recipe"
+slug: "lentil-soup"
+excerpt: "Hearty, protein-packed soup with vegetables in 30 minutes. Perfect for GLP-1 appetites - rich, satisfying, easy to digest and loaded with plant protein."
+
+date: 2026-02-28
+readTime: "6 min"
 category: "Recipes"
-readTime: "8 min read + cook time 40 min"
-type: recipe
-servings: "4 bowls"
-prepTime: "10 min + cook time 40 min"
-protein: "18g per bowl"
-calories: "280-350 per bowl (varies by broth, oil added)"
+
+recipe:
+  prepTime: "10 minutes"
+  cookTime: "20 minutes"
+  servings: "4"
+  protein: "20-22g per bowl"
+  calories: "200-220 per bowl"
+  difficulty: "Easy"
 ---
 
-> [!TIP] Canned lentils work
-- No sorting, no soaking, cook time 15 min vs 45 min
-- Slightly more expensive, huge time savings
-- For GLP-1 low-energy days: Use canned
+# Lentil Soup: 20g Protein in 1 Bowl Recipe
 
-## Why This Works
+Soup is perfect for GLP-1 appetites. Warm, soft texture (easy to digest), loads of fiber and protein, and you can still eat a satisfying bowl without overloading your stomach.
 
-**Lentils advantages:**
-- **Plant protein:** 18g per bowl without animal products
-- **Fiber:** 12-15g per bowl (excellent for digestion, satiety)
-- **Inexpensive:** \$2-3 for entire pot (4+ meals)
-- **Comfort food:** Soups feel substantial, warm, satisfying
-- **Long shelf life:** Dry lentils last 1+ years in pantry
+This lentil soup is loaded with plant protein, vegetables, and warm flavors that don't overwhelm reduced appetite.
 
-**GLP-1 specific:**
-- One bowl = legitimate meal (18g protein)
-- Soups are easy to digest (cooked thoroughly)
-- Fiber = satiety = you feel satisfied with less
-- Plant protein = no heavy feeling of dense meat
+## Ingredients
 
-## Base Recipe (Dry Lentils)
+*2 cups brown or green lentils* - 36g protein for entire recipe
+- Washed thoroughly
+- Red/brown lentils cook faster (20 min)
+- Green lentils hold shape better (30 min)
 
-**Ingredients (makes 4 bowls):**
-- 1 cup dry lentils (brown or green lentils)
-- 6 cups vegetable broth (or chicken broth if not vegetarian)
-- 1 onion, diced
-- 3 carrots, diced
-- 3 celery stalks, diced
-- 2 cloves garlic, minced
-- 2 tbsp olive oil
-- 1 tsp dried thyme OR fresh thyme sprigs
-- 1 bay leaf
-- Salt + pepper to taste
-- Optional: 1 can diced tomatoes (adds flavor, acidity)
+*1 medium onion, chopped*
+- Yellow onions are sweeter, red onions are sharper
+- Both work fine
 
-**Directions:**
-1. **Prep lentils:** Rinse thoroughly, pick out any debris.
-2. **Sauté vegetables:** Heat olive oil in pot, sauté onion + carrots + celery + garlic 5-7 min until soft.
-3. **Add lentils + seasonings:** Add lentils, thyme, bay leaf.
-4. **Add broth:** Pour in 6 cups broth+ can of tomatoes (if using).
-5. **Simmer:** Bring to boil, reduce heat, simmer 35-40 min.
-6. **Check lentils:** Should be tender but not mushy. Add salt + pepper.
-7. **Serve** hot, remove bay leaf before serving.
+*2-3 medium carrots, sliced*
+- 4-5 carrots total
+- Adds natural sweetness + beta carotene
 
-## Canned Lentils Shortcut (15 Min)
+*3-4 stalks celery, chopped*
+- Adds aromatic flavor + texture
 
-**Ingredients:**
-- 2 cans (15 oz each) green/brown lentils, rinsed and drained
-- 4 cups vegetable broth
-- 1 onion, diced
-- 2 carrots, diced
-- 2 cloves garlic, minced
-- 2 tbsp olive oil
-- 1 tsp thyme
-- Salt + pepper
+*1 can (14.5 oz) diced tomatoes*
+- Fire-roasted or regular
+- Adds acidity + brightness
 
-**Directions:**
-1. Sauté onion + carrots + olive oil in pot 5 min.
-2. Add garlic + thyme, cook 1 min.
-3. Add broth + lentils (drained/rinsed).
-4. Simmer 10-15 min to meld flavors.
-5. Season to taste. Serve immediately.
+*4 cups vegetable broth or chicken broth*
+- Vegetable broth = pure plant protein
+- Chicken broth = extra flavor + protein
 
-## Flavor Variations
+*2-3 cloves garlic, minced*
 
-### Classic Tomato Lentil
-- Add 1 can diced tomatoes
-- 1 tsp tomato paste for depth
-- Fresh basil at the end
+*1 teaspoon dried thyme or oregano* — herbs of your choice
 
-### Spicy Red Lentil Soup
-- Use red lentils (thickens naturally)
-- Add 1 can diced tomatoes + 1 tsp cumin + 1 tsp paprika
-- Optional: Cayenne pepper to taste
+*Salt and black pepper* — to taste
 
-### Italian Style
-- Add 1 can diced tomatoes
-- Fresh rosemary + thyme
-- Finish with grated parmesan (adds 3g protein + flavor)
+*Optional: 1 bay leaf* — aromatic, remove before serving
 
-### Curry Lentil
-- Replace thyme with curry powder (1-2 tbsp)
-- Add 1 tsp turmeric + 1 tsp coriander
-- Coconut milk splash (1/4 cup) adds creaminess
+*Optional: 2 cups fresh spinach* — adds more protein + nutrition
 
-## Serving Ideas
+---
 
-**As meal (18g protein per bowl):**
-- **Pure:** Just soup (filling enough for GLP-1 portion)
-- **With side:** Small crusty bread (100 cal), or croutons
-- **Protein boost:** Add 1-2 oz shredded chicken or 1 egg boiled (adds 10g protein per egg = 28g total protein)
+## Instructions
 
-**As side:**
-- Half bowl = 9g protein (great alongside main protein)
-- Pair with smaller protein + veggies
+### Step 1: Sauté Vegetables (5 minutes)
+In a large pot or Dutch oven:
+- Heat 1-2 tablespoons olive oil over medium heat
+- Add onion, carrots, celery; sauté 5-7 minutes until onions soften
+- Add garlic, herbs; cook 1 minute until fragrant
 
-**Garnishes:**
-- **Fresh herbs:** Parsley, thyme, basil (adds freshness)
-- **Crusty bread:** Dip in broth, adds substance
-- **Yogurt dollop:** Plain Greek yogurt (adds protein + creaminess)
+### Step 2: Add Lentils & Broth (2 minutes)
+Add lentils, tomatoes, broth, thyme/oregano and bay leaf (if using):
+- Bring to boil over high heat
+- Reduce heat to low
 
-## Meal Prep & Storage
+### Step 3: Simmer (15-25 minutes)
+Cover and simmer until lentils are tender (18-20 min for brown, 25-30 min for green):
+- Stir occasionally
+- Add more broth if too thick (soup consistency preference)
+- Remove bay leaf before serving
 
-**Making ahead:**
-- Soups actually taste better next day (flavors meld)
-- Make a big batch (double above recipe).
-- Portion into 4 containers.
+### Step 4: Add Spinach (1 minute)
+If using spinach: Add in last minute
+- Stir until just wilted
+- Remove from heat
 
-**Freezing:**
-- Lentil soup freezes well (3-6 months)
-- Leave slight headroom for expansion (don't fill to brim)
-- Reheat from freezer in microwave 3-4 min + stir halfway.
+### Season (taste test)
+Add salt & black pepper to taste
 
-**Reheating:**
-- Fridge to microwave: 2-3 min
-- Freezer to microwave: 3-4 min + stir
-- From freezer to fridge overnight = faster reheating
+---
 
-## Lentil Varieties
+## Protein & Nutrition Highlights
 
-| Lentil Type | Cook Time | Texture | Best For |
-|-------------|-----------|---------|----------|
-| **Brown lentils** | 35-45 min | Holds shape | Soups, stews |
-| **Green lentils** | 35-40 min | Holds shape | Salads, soups |
-| **Red lentils** | 20-25 min | Softens/thickens | Thick soups, curries |
-| **French green/Puy** | 30-40 min | Texture | Salads, fancy dishes |
+**What per bowl (1/4 recipe):**
+- **Protein:** 20-22g (from lentils + broth)
+- **Fiber:** 15-18g
+- **Carbs:** 35-40g (complex, from lentils and vegetables)
+- **Calories:** 200-220 kcal
 
-**Recommendation:**
-- Brown or green lentils for most soups (texture holds up)
-- Red lentils if you want thicker, creamier texture
-- French green are similar to green but more expensive
+**Why This Works for GLP-1:**
+- Soft texture (easy to digest)
+- Warm (comforting)
+- High protein per serving (20g)
+- Balanced carbs that digest slowly (avoid blood sugar spikes)
+- Fiber content increases satiety
 
-## Buying & Storing
+---
 
-**Storage:**
-- **Dry lentils:** Cook for 1+ years in pantry, cool dry spot
-- **Canned lentils:** Keep 1+ years in pantry
-- **Cooked lentils:** 3-4 days fridge, 3-6 months frozen
+## Variations
 
-**Where to buy:**
-- **Grocery store:** Bulk bins or packaged
-- **Bulk stores (Costco)**: Large bags (good if you cook weekly)
-- **Online:** Sometimes organic/imported lentils
+**Add More Protein:**
+- Add 1 cup white beans after greens cook (6g protein per bowl)
+- Add 1/2 cup shredded cooked chicken per bowl (12-14g per bowl)
+- Serve with 1/4 grated parmesan cheese on top (5g protein per bowl)
+- Top with 2 tablespoons crumbled feta (2g protein)
 
-**Quality:**
-- Whole, unbroken lentils cook evenly (sort out debris/discolored)
-- Check for expiration date (old lentils take forever to cook)
+**Veggie-Forward:**
+- Use zucchini, summer squash, or yellow squash
+- Butternut squash cubes for fall/winter flavor
+- Extra leafy greens: kale, chard
 
-> [!WARNING] Check labels on canned lentils
-- Some are pre-seasoned (adds sodium, extra flavor you may not want)
-- "Simple" or "plain" = just lentils in water = best flexibility
-- Rinse canned lentils to remove canning brine sodium
+**Herb & Spice Variations:**
+- Curry powder + coconut milk for Indian-style
+- Cumin + paprika for Mediterranean flavor
+- Thyme + rosemary for classic French style
+- Red pepper flakes for heat (add caution if sensitive to spice)
 
-> [!NOTE] Lentils + rice = complete protein
-- Lentils = plant protein but not complete (missing some amino acids)
-- Rice has complementary amino acids
-- Lentils + small portion rice = complete protein profile
-- NOT necessary daily, but good occasionally for variety
+---
 
-> [!BONUS] Lentils are inexpensive
-- 1 lb dry lentils = \$2-3
-- Makes 4+ generous bowls
-- Compare: 6 oz chicken = \$4-5 for one meal
-- Plant protein = budget friendly
+## Make-Ahead and Storage
+
+**Refrigerator (up to 4 days):**
+- Store in airtight containers
+- Reheat on low heat or microwave
+
+**Freezer (up to 3 months):**
+- Cool completely before freezing
+- Soups freeze exceptionally well
+- Freeze in individual portions
+- Thaw overnight in refrigerator or microwave
+
+---
+
+## Why Lentils?
+
+Lentils are GLP-1 superfoods for multiple reasons:
+
+**1. High Protein per Volume:** 
+- 18g protein per cup cooked lentils
+- Plant-based, complete with rice or dairy 
+- Easy to digest (mild on stomach)
+
+**2. High Fiber:**
+- 15g fiber per cup cooked lentils
+- Slows carbohydrate absorption
+- Increases satiety
+
+**3. Long Lasting Energy:**
+- Complex carbs digest slowly
+- Sustained energy without crashes
+
+**4. Inexpensive:**
+- Way cheaper per gram of protein than meat
+- Affordable for everyday meals
+
+---
+
+## How to Eat It Like a Pro
+
+**Option A: The "Protein-First" Bowl Method**
+- Eat all protein-rich pieces first (lentils, any chicken/beans you add)
+- Then vegetables and broth
+- Protein triggers satiety, then eat until done
+
+**Option B: The Small Bowl Method**
+- Have smaller portion (half recipe size = 10-11g protein)
+- Add a side: one slice sourdough, small piece of cheese, protein shake
+- Together = 25g+ protein total
+
+**Option C: The Post-Soup Protein**
+- Have bowl of soup
+- Wait 15-20 min
+- Then supplement with another 10-15g protein if still hungry (Greek yogurt, handful nuts, protein shake)
+
+---
+
+**Lentil soup keeps you full for hours.** The combination of protein, fiber, and liquid is a satiety triple.
+
+Perfect for lunch, dinner, or when you want warm comfort without overeating.
+
+---
+
+*Soup on GLP-1 is one of the easiest ways to get enough volume AND protein without overwhelming your reduced appetite. This recipe does both in one bowl.* 

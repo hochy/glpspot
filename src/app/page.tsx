@@ -38,7 +38,7 @@ export default async function Home() {
           <div
             className="absolute inset-0"
             style={{
-              backgroundImage: `url('/images/hero.jpg')`,
+              backgroundImage: `url('/images/hero.webp')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -123,19 +123,19 @@ export default async function Home() {
               href="/articles/first-week-ozempic"
               title="Your First Week on GLP-1s"
               subtitle="What changes, what’s normal, and how to eat when appetite drops"
-              imageUrl="/images/ozempic.jpg"
+              imageUrl="/images/ozempic.webp"
             />
             <FeaturedTile
               href="/articles/high-protein-recipes"
               title="Protein-Rich Meals That Go Down Easy"
               subtitle="Small portions, big protein—no giant plates required"
-              imageUrl="/images/protein.jpg"
+              imageUrl="/images/protein.webp"
             />
             <FeaturedTile
               href="/articles/grocery-shopping-101"
               title="Grocery Shopping 101"
               subtitle="A simple list that makes hitting protein goals way easier"
-              imageUrl="/images/grocery.jpg"
+              imageUrl="/images/grocery.webp"
             />
           </div>
         </div>
@@ -351,7 +351,7 @@ interface Article {
 // Get appropriate image for article category
 function getArticleImage(category: string, slug: string): string {
   const images: Record<string, string> = {
-    'first-week-ozempic': '/images/ozempic.jpg',
+    'first-week-ozempic': '/images/ozempic.webp',
     'high-protein-recipes': '/images/protein.jpg',
     'hydration-habit': '/images/hydration.jpg',
     'grocery-shopping-101': '/images/grocery.jpg',

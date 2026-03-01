@@ -86,6 +86,8 @@ function getHeroImage(slug: string): string {
     'social-situations-glp1': '/images/cooked-food-tray.webp',
     'dining-out-glp1-restaurants': '/images/cooked-food-tray.webp',
     'social-eating-restaurants-parties': '/images/cooked-food-tray.webp',
+    'family-gatherings-glp1': '/images/cooked-food-tray.webp',
+    'common-glp1-mistakes-avoid': '/images/white-bowl-vegetables.webp',
     'protein-snacks-low-appetite': '/images/protein.webp',
     'protein-supplements-guide': '/images/protein.webp',
     // Recipes - Smoothies & Drinks
